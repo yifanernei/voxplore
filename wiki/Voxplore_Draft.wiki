@@ -16,7 +16,7 @@ are collected, or where the call is transferred or bridged.
 The idea is similar to the [url
 http://www.cs.columbia.edu/~kns10/software/sipvxml/sipvxml.html
 sipvxml] project except that we use Java for robustness and
-scalability. [url https://docs.google.com/file/d/11p22nXGbqst2BFojgRPy6ST_VGowz0Xw5NqaMT3MA_hQLhS6WiIhD2ej8bPY/edit?pli=1]. The rest of the
+scalability. [url *https://docs.google.com/file/d/11p22nXGbqst2BFojgRPy6ST_VGowz0Xw5NqaMT3MA_hQLhS6WiIhD2ej8bPY/edit?pli=1]. The rest of the
 document describes the various stages of the project where each stage
 focuses on a small incremental problem to build the complete system in
 the end.
