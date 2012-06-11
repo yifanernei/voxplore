@@ -48,8 +48,8 @@ step you have the core of the algorithm implemented as a program that
 takes a vxml file, and interprets it, printing out any action, and
 taking any user input from console.
 
-=Step 2=
-=Step 3=
+==Step 2==
+==Step 3==
 = Details =
 
 Add your content here.  Format your content with:
