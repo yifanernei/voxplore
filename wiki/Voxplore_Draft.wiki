@@ -16,12 +16,40 @@ are collected, or where the call is transferred or bridged.
 The idea is similar to the [url
 http://www.cs.columbia.edu/~kns10/software/sipvxml/sipvxml.html
 sipvxml] project except that we use Java for robustness and
-scalability. [Include the first diagram here]. The rest of the
+scalability. [url https://docs.google.com/file/d/11p22nXGbqst2BFojgRPy6ST_VGowz0Xw5NqaMT3MA_hQLhS6WiIhD2ej8bPY/edit?pli=1]. The rest of the
 document describes the various stages of the project where each stage
 focuses on a small incremental problem to build the complete system in
 the end.
 
+=Modules =
 
+The whole application is divided into 3 major modules. Each module is described as below in corresponding steps.
+
+==Step 1==
+
+The first step is to create a simple VoiceXML interpreter engine that
+can understand a simple application and perform various functions as
+per a sub-set of the tags. First create 4-5 examples of simple vxml
+pages. These should include only simple tags like form, block, prompt,
+meta, var, filled, catch, help. It should not include any ECMAscript.
+Create a list of sub-set of tags that you will support and get it
+approved by your mentor. The form interpretation algorithm is the core
+of the system and we will focus on that. Write a simple Java program
+that reads a vxml file, parses the XML from the file, creates the DOM
+tree, and then implements the form interpretation algorithm. The
+VoiceXML specification describes in detail how the algorithm works.
+The input file name and any options are taken from the command line.
+The program prints out the actions it is taking such as if there is a
+prompt to be played out it print "PROMPT: the text of the prompt". If
+there is any input to be received by the vxml application, it reads
+the user input from console. This removes any text-to-speech or DTMF
+detection related complexity from the first step. At the end of this
+step you have the core of the algorithm implemented as a program that
+takes a vxml file, and interprets it, printing out any action, and
+taking any user input from console.
+
+=Step 2=
+=Step 3=
 = Details =
 
 Add your content here.  Format your content with:
